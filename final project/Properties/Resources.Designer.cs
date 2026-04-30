@@ -59,5 +59,66 @@ namespace final_project.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap _4_29_2_ {
+            get {
+                object obj = ResourceManager.GetObject("4.29(2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap earth__1_ {
+            get {
+                object obj = ResourceManager.GetObject("earth (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap earth__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("earth__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap earth_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("earth-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap easter {
+            get {
+                object obj = ResourceManager.GetObject("easter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Scarica_premio_vettoriale_di_colorato_galassia_acquerello_scarabocchio_su_sfondo_nero_vettore_di_Toon_su_astronauta__carattere_illustrazione_nero_ {
+            get {
+                object obj = ResourceManager.GetObject("Scarica premio vettoriale di colorato galassia acquerello scarabocchio su sfondo " +
+                        "nero vettore di Toon su astronauta, carattere illustrazione nero,", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
