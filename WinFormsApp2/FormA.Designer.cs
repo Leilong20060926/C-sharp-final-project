@@ -35,7 +35,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.宇宙貓;
-            pictureBox1.Location = new Point(661, -6);
+            pictureBox1.Location = new Point(661, 327);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(209, 223);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
