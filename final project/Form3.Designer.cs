@@ -32,9 +32,11 @@
             // 
             // Form3
             // 
-            AutoScaleDimensions = new SizeF(11F, 23F);
+            AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(578, 844);
+            BackColor = Color.FromArgb(10, 24, 47);
+            ClientSize = new Size(473, 697);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form3";
             Text = "Form3";
             ResumeLayout(false);
