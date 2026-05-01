@@ -144,6 +144,26 @@ namespace final_project.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap 按鈕 {
+            get {
+                object obj = ResourceManager.GetObject("按鈕", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 按鈕1 {
+            get {
+                object obj = ResourceManager.GetObject("按鈕1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap 貓貓星球 {
             get {
                 object obj = ResourceManager.GetObject("貓貓星球", resourceCulture);

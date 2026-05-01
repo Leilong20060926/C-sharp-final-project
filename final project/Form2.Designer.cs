@@ -30,6 +30,7 @@
         {
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -47,12 +48,26 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.貓貓星球;
-            pictureBox2.Location = new Point(-5, 481);
+            pictureBox2.Location = new Point(-30, 441);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(238, 223);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(10, 25, 47);
+            button1.BackgroundImage = Properties.Resources.按鈕1;
+            button1.BackgroundImageLayout = ImageLayout.Zoom;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(157, 610);
+            button1.Name = "button1";
+            button1.Size = new Size(148, 75);
+            button1.TabIndex = 2;
+            button1.Text = " Next ";
+            button1.UseVisualStyleBackColor = false;
             // 
             // Form2
             // 
@@ -60,6 +75,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(10, 25, 47);
             ClientSize = new Size(473, 697);
+            Controls.Add(button1);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Margin = new Padding(2);
@@ -75,5 +91,6 @@
 
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private Button button1;
     }
 }
