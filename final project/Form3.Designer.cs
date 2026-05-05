@@ -37,8 +37,8 @@
             button3 = new Button();
             richTextBox1 = new RichTextBox();
             label2 = new Label();
-            pictureBox2 = new PictureBox();
             panel1 = new Panel();
+            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -157,17 +157,6 @@
             label2.TabIndex = 27;
             label2.Text = "20%";
             // 
-            // pictureBox2
-            // 
-            pictureBox2.BackColor = Color.Transparent;
-            pictureBox2.Image = Properties.Resources.星星亮;
-            pictureBox2.Location = new Point(66, 42);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(50, 47);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 26;
-            pictureBox2.TabStop = false;
-            // 
             // panel1
             // 
             panel1.BackColor = Color.White;
@@ -176,14 +165,25 @@
             panel1.Size = new Size(385, 10);
             panel1.TabIndex = 25;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.Transparent;
+            pictureBox2.Image = Properties.Resources.星星亮;
+            pictureBox2.Location = new Point(84, 43);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(50, 47);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 38;
+            pictureBox2.TabStop = false;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(10, 24, 47);
             ClientSize = new Size(473, 697);
-            Controls.Add(label2);
             Controls.Add(pictureBox2);
+            Controls.Add(label2);
             Controls.Add(panel1);
             Controls.Add(richTextBox1);
             Controls.Add(button2);
@@ -213,7 +213,7 @@
         private Button button3;
         private RichTextBox richTextBox1;
         private Label label2;
-        private PictureBox pictureBox2;
         private Panel panel1;
+        private PictureBox pictureBox2;
     }
 }

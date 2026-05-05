@@ -30,7 +30,6 @@
         {
             pictureBox2 = new PictureBox();
             label2 = new Label();
-            pictureBox1 = new PictureBox();
             panel1 = new Panel();
             richTextBox1 = new RichTextBox();
             button2 = new Button();
@@ -39,6 +38,7 @@
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
             button3 = new Button();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -46,7 +46,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.貓貓星球1;
-            pictureBox2.Location = new Point(283, 448);
+            pictureBox2.Location = new Point(286, 413);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(193, 168);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -63,17 +63,6 @@
             label2.Size = new Size(50, 26);
             label2.TabIndex = 38;
             label2.Text = "30%";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = Properties.Resources.星星亮;
-            pictureBox1.Location = new Point(100, 37);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(50, 47);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 37;
-            pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -103,7 +92,7 @@
             button2.BackgroundImageLayout = ImageLayout.Zoom;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(-10, 610);
+            button2.Location = new Point(-7, 610);
             button2.Name = "button2";
             button2.Size = new Size(144, 75);
             button2.TabIndex = 34;
@@ -176,14 +165,25 @@
             button3.Text = "NEXT";
             button3.UseVisualStyleBackColor = false;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Image = Properties.Resources.星星亮;
+            pictureBox1.Location = new Point(110, 39);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(50, 47);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 39;
+            pictureBox1.TabStop = false;
+            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(10, 24, 47);
             ClientSize = new Size(473, 697);
-            Controls.Add(label2);
             Controls.Add(pictureBox1);
+            Controls.Add(label2);
             Controls.Add(panel1);
             Controls.Add(richTextBox1);
             Controls.Add(button2);
@@ -204,7 +204,6 @@
         #endregion
         private PictureBox pictureBox2;
         private Label label2;
-        private PictureBox pictureBox1;
         private Panel panel1;
         private RichTextBox richTextBox1;
         private Button button2;
@@ -213,5 +212,6 @@
         private RadioButton radioButton2;
         private RadioButton radioButton1;
         private Button button3;
+        private PictureBox pictureBox1;
     }
 }
