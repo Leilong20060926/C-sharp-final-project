@@ -38,7 +38,9 @@
             radioButton1 = new RadioButton();
             button2 = new Button();
             button3 = new Button();
+            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -157,12 +159,22 @@
             button3.BackgroundImageLayout = ImageLayout.Zoom;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(339, 619);
+            button3.Location = new Point(386, 540);
             button3.Name = "button3";
-            button3.Size = new Size(148, 75);
+            button3.Size = new Size(77, 75);
             button3.TabIndex = 68;
             button3.Text = "NEXT";
             button3.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.地球貓;
+            pictureBox2.Location = new Point(90, 540);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(288, 160);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 72;
+            pictureBox2.TabStop = false;
             // 
             // Form8
             // 
@@ -170,6 +182,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(10, 24, 47);
             ClientSize = new Size(473, 697);
+            Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(button2);
             Controls.Add(button3);
@@ -183,6 +196,7 @@
             Name = "Form8";
             Text = "Form8";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -199,5 +213,6 @@
         private RadioButton radioButton1;
         private Button button2;
         private Button button3;
+        private PictureBox pictureBox2;
     }
 }

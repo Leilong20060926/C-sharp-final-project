@@ -39,7 +39,9 @@
             panel1 = new Panel();
             label1 = new Label();
             label2 = new Label();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -49,9 +51,9 @@
             button1.BackgroundImageLayout = ImageLayout.Zoom;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(339, 619);
+            button1.Location = new Point(386, 540);
             button1.Name = "button1";
-            button1.Size = new Size(148, 75);
+            button1.Size = new Size(75, 75);
             button1.TabIndex = 2;
             button1.Text = "NEXT";
             button1.UseVisualStyleBackColor = false;
@@ -130,9 +132,9 @@
             button2.BackgroundImageLayout = ImageLayout.Zoom;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(-10, 619);
+            button2.Location = new Point(12, 540);
             button2.Name = "button2";
-            button2.Size = new Size(144, 75);
+            button2.Size = new Size(84, 75);
             button2.TabIndex = 9;
             button2.Text = "PREV";
             button2.UseVisualStyleBackColor = false;
@@ -175,12 +177,24 @@
             label2.TabIndex = 24;
             label2.Text = "10%";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.地球貓;
+            pictureBox1.Location = new Point(90, 540);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(288, 160);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 72;
+            pictureBox1.TabStop = false;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(10, 25, 47);
             ClientSize = new Size(473, 697);
+            Controls.Add(button1);
+            Controls.Add(pictureBox1);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox2);
@@ -191,12 +205,12 @@
             Controls.Add(radioButton2);
             Controls.Add(radioButton1);
             Controls.Add(richTextBox1);
-            Controls.Add(button1);
             Margin = new Padding(2);
             Name = "Form2";
             Text = "Form2";
             Load += Form2_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -213,5 +227,6 @@
         private Panel panel1;
         private Label label1;
         private Label label2;
+        private PictureBox pictureBox1;
     }
 }

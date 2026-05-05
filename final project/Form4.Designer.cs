@@ -38,7 +38,9 @@
             radioButton1 = new RadioButton();
             button3 = new Button();
             pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // label2
@@ -80,9 +82,9 @@
             button2.BackgroundImageLayout = ImageLayout.Zoom;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(-10, 619);
+            button2.Location = new Point(12, 540);
             button2.Name = "button2";
-            button2.Size = new Size(144, 75);
+            button2.Size = new Size(73, 75);
             button2.TabIndex = 34;
             button2.Text = "PREV";
             button2.UseVisualStyleBackColor = false;
@@ -146,9 +148,9 @@
             button3.BackgroundImageLayout = ImageLayout.Zoom;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(339, 619);
+            button3.Location = new Point(386, 540);
             button3.Name = "button3";
-            button3.Size = new Size(148, 75);
+            button3.Size = new Size(74, 75);
             button3.TabIndex = 29;
             button3.Text = "NEXT";
             button3.UseVisualStyleBackColor = false;
@@ -164,12 +166,23 @@
             pictureBox1.TabIndex = 39;
             pictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.地球貓;
+            pictureBox2.Location = new Point(90, 540);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(288, 160);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 72;
+            pictureBox2.TabStop = false;
+            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(10, 24, 47);
             ClientSize = new Size(473, 697);
+            Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
             Controls.Add(panel1);
@@ -183,6 +196,7 @@
             Name = "Form4";
             Text = "Form4";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -198,5 +212,6 @@
         private RadioButton radioButton1;
         private Button button3;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }
