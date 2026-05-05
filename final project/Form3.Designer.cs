@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pictureBox1 = new PictureBox();
             button2 = new Button();
             radioButton4 = new RadioButton();
             radioButton3 = new RadioButton();
@@ -39,19 +38,8 @@
             label2 = new Label();
             panel1 = new Panel();
             pictureBox2 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.宇宙貓1;
-            pictureBox1.Location = new Point(275, 451);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(231, 144);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
             // 
             // button2
             // 
@@ -60,7 +48,7 @@
             button2.BackgroundImageLayout = ImageLayout.Zoom;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(-10, 610);
+            button2.Location = new Point(-10, 619);
             button2.Name = "button2";
             button2.Size = new Size(144, 75);
             button2.TabIndex = 17;
@@ -72,7 +60,7 @@
             radioButton4.AutoSize = true;
             radioButton4.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton4.ForeColor = SystemColors.ControlLightLight;
-            radioButton4.Location = new Point(55, 405);
+            radioButton4.Location = new Point(47, 458);
             radioButton4.Name = "radioButton4";
             radioButton4.Size = new Size(357, 25);
             radioButton4.TabIndex = 16;
@@ -85,7 +73,7 @@
             radioButton3.AutoSize = true;
             radioButton3.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton3.ForeColor = SystemColors.ControlLightLight;
-            radioButton3.Location = new Point(55, 334);
+            radioButton3.Location = new Point(47, 373);
             radioButton3.Name = "radioButton3";
             radioButton3.Size = new Size(329, 46);
             radioButton3.TabIndex = 15;
@@ -98,7 +86,7 @@
             radioButton2.AutoSize = true;
             radioButton2.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton2.ForeColor = SystemColors.ControlLightLight;
-            radioButton2.Location = new Point(55, 272);
+            radioButton2.Location = new Point(47, 244);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(326, 46);
             radioButton2.TabIndex = 14;
@@ -111,7 +99,7 @@
             radioButton1.AutoSize = true;
             radioButton1.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton1.ForeColor = SystemColors.ControlLightLight;
-            radioButton1.Location = new Point(55, 230);
+            radioButton1.Location = new Point(47, 318);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(316, 25);
             radioButton1.TabIndex = 13;
@@ -126,7 +114,7 @@
             button3.BackgroundImageLayout = ImageLayout.Zoom;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(337, 610);
+            button3.Location = new Point(339, 619);
             button3.Name = "button3";
             button3.Size = new Size(148, 75);
             button3.TabIndex = 11;
@@ -139,7 +127,7 @@
             richTextBox1.BorderStyle = BorderStyle.None;
             richTextBox1.Font = new Font("Arial Rounded MT Bold", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             richTextBox1.ForeColor = SystemColors.Window;
-            richTextBox1.Location = new Point(55, 124);
+            richTextBox1.Location = new Point(47, 133);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.ReadOnly = true;
             richTextBox1.Size = new Size(361, 93);
@@ -169,7 +157,7 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = Properties.Resources.星星亮;
-            pictureBox2.Location = new Point(84, 43);
+            pictureBox2.Location = new Point(78, 44);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(50, 47);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -192,19 +180,15 @@
             Controls.Add(radioButton2);
             Controls.Add(radioButton1);
             Controls.Add(button3);
-            Controls.Add(pictureBox1);
             Margin = new Padding(2);
             Name = "Form3";
             Text = " ";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
         private Button button2;
         private RadioButton radioButton4;
         private RadioButton radioButton3;

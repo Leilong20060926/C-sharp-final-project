@@ -46,7 +46,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.ButtonHighlight;
-            label2.Location = new Point(406, 29);
+            label2.Location = new Point(413, 22);
             label2.Name = "label2";
             label2.Size = new Size(51, 26);
             label2.TabIndex = 46;
@@ -55,7 +55,7 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
-            panel1.Location = new Point(40, 73);
+            panel1.Location = new Point(47, 66);
             panel1.Name = "panel1";
             panel1.Size = new Size(385, 10);
             panel1.TabIndex = 44;
@@ -66,19 +66,19 @@
             richTextBox1.BorderStyle = BorderStyle.None;
             richTextBox1.Font = new Font("Arial Rounded MT Bold", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             richTextBox1.ForeColor = SystemColors.Window;
-            richTextBox1.Location = new Point(48, 118);
+            richTextBox1.Location = new Point(47, 133);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.ReadOnly = true;
             richTextBox1.Size = new Size(361, 95);
             richTextBox1.TabIndex = 43;
-            richTextBox1.Text = "You successfully land on Meow-7. The environment is filled with \nunknown gases and strange sounds. What is your first move?";
+            richTextBox1.Text = "You successfully land on Meow-7. The environment is filled with unknown \ngases and strange sounds. What is your first move?";
             // 
             // radioButton4
             // 
             radioButton4.AutoSize = true;
             radioButton4.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton4.ForeColor = SystemColors.ControlLightLight;
-            radioButton4.Location = new Point(48, 389);
+            radioButton4.Location = new Point(47, 445);
             radioButton4.Name = "radioButton4";
             radioButton4.Size = new Size(306, 25);
             radioButton4.TabIndex = 42;
@@ -91,7 +91,7 @@
             radioButton3.AutoSize = true;
             radioButton3.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton3.ForeColor = SystemColors.ControlLightLight;
-            radioButton3.Location = new Point(48, 338);
+            radioButton3.Location = new Point(47, 384);
             radioButton3.Name = "radioButton3";
             radioButton3.Size = new Size(333, 25);
             radioButton3.TabIndex = 41;
@@ -104,7 +104,7 @@
             radioButton2.AutoSize = true;
             radioButton2.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton2.ForeColor = SystemColors.ControlLightLight;
-            radioButton2.Location = new Point(48, 276);
+            radioButton2.Location = new Point(47, 304);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(290, 46);
             radioButton2.TabIndex = 40;
@@ -117,7 +117,7 @@
             radioButton1.AutoSize = true;
             radioButton1.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton1.ForeColor = SystemColors.ControlLightLight;
-            radioButton1.Location = new Point(48, 234);
+            radioButton1.Location = new Point(47, 249);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(394, 25);
             radioButton1.TabIndex = 39;
@@ -129,7 +129,7 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = Properties.Resources.星星亮;
-            pictureBox1.Location = new Point(145, 49);
+            pictureBox1.Location = new Point(157, 44);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(50, 47);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -143,7 +143,7 @@
             button2.BackgroundImageLayout = ImageLayout.Zoom;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(-13, 610);
+            button2.Location = new Point(-10, 619);
             button2.Name = "button2";
             button2.Size = new Size(144, 75);
             button2.TabIndex = 49;
@@ -157,7 +157,7 @@
             button3.BackgroundImageLayout = ImageLayout.Zoom;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(334, 610);
+            button3.Location = new Point(339, 619);
             button3.Name = "button3";
             button3.Size = new Size(148, 75);
             button3.TabIndex = 48;

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pictureBox2 = new PictureBox();
             label2 = new Label();
             panel1 = new Panel();
             richTextBox1 = new RichTextBox();
@@ -39,26 +38,15 @@
             radioButton1 = new RadioButton();
             button3 = new Button();
             pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.貓貓星球1;
-            pictureBox2.Location = new Point(286, 413);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(193, 168);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 2;
-            pictureBox2.TabStop = false;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.ButtonHighlight;
-            label2.Location = new Point(404, 17);
+            label2.Location = new Point(413, 22);
             label2.Name = "label2";
             label2.Size = new Size(50, 26);
             label2.TabIndex = 38;
@@ -67,7 +55,7 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
-            panel1.Location = new Point(38, 61);
+            panel1.Location = new Point(47, 66);
             panel1.Name = "panel1";
             panel1.Size = new Size(385, 10);
             panel1.TabIndex = 36;
@@ -78,7 +66,7 @@
             richTextBox1.BorderStyle = BorderStyle.None;
             richTextBox1.Font = new Font("Arial Rounded MT Bold", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             richTextBox1.ForeColor = SystemColors.Window;
-            richTextBox1.Location = new Point(46, 122);
+            richTextBox1.Location = new Point(47, 133);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.ReadOnly = true;
             richTextBox1.Size = new Size(361, 68);
@@ -92,7 +80,7 @@
             button2.BackgroundImageLayout = ImageLayout.Zoom;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(-7, 610);
+            button2.Location = new Point(-10, 619);
             button2.Name = "button2";
             button2.Size = new Size(144, 75);
             button2.TabIndex = 34;
@@ -104,7 +92,7 @@
             radioButton4.AutoSize = true;
             radioButton4.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton4.ForeColor = SystemColors.ControlLightLight;
-            radioButton4.Location = new Point(46, 382);
+            radioButton4.Location = new Point(47, 407);
             radioButton4.Name = "radioButton4";
             radioButton4.Size = new Size(363, 25);
             radioButton4.TabIndex = 33;
@@ -117,7 +105,7 @@
             radioButton3.AutoSize = true;
             radioButton3.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton3.ForeColor = SystemColors.ControlLightLight;
-            radioButton3.Location = new Point(46, 311);
+            radioButton3.Location = new Point(47, 335);
             radioButton3.Name = "radioButton3";
             radioButton3.Size = new Size(279, 46);
             radioButton3.TabIndex = 32;
@@ -130,7 +118,7 @@
             radioButton2.AutoSize = true;
             radioButton2.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton2.ForeColor = SystemColors.ControlLightLight;
-            radioButton2.Location = new Point(46, 249);
+            radioButton2.Location = new Point(47, 262);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(267, 46);
             radioButton2.TabIndex = 31;
@@ -143,7 +131,7 @@
             radioButton1.AutoSize = true;
             radioButton1.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton1.ForeColor = SystemColors.ControlLightLight;
-            radioButton1.Location = new Point(46, 207);
+            radioButton1.Location = new Point(47, 216);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(345, 25);
             radioButton1.TabIndex = 30;
@@ -158,7 +146,7 @@
             button3.BackgroundImageLayout = ImageLayout.Zoom;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(340, 610);
+            button3.Location = new Point(339, 619);
             button3.Name = "button3";
             button3.Size = new Size(148, 75);
             button3.TabIndex = 29;
@@ -169,7 +157,7 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = Properties.Resources.星星亮;
-            pictureBox1.Location = new Point(110, 39);
+            pictureBox1.Location = new Point(117, 44);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(50, 47);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -192,17 +180,14 @@
             Controls.Add(radioButton2);
             Controls.Add(radioButton1);
             Controls.Add(button3);
-            Controls.Add(pictureBox2);
             Name = "Form4";
             Text = "Form4";
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private PictureBox pictureBox2;
         private Label label2;
         private Panel panel1;
         private RichTextBox richTextBox1;
