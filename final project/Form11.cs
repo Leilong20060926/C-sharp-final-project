@@ -8,16 +8,11 @@ using System.Windows.Forms;
 
 namespace final_project
 {
-    public partial class Form3 : Form
+    public partial class Form11 : Form
     {
-        public Form3()
+        public Form11()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
