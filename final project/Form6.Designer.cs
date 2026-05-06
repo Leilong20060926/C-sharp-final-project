@@ -50,7 +50,7 @@
             button2.BackgroundImageLayout = ImageLayout.Zoom;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(-10, 619);
+            button2.Location = new Point(12, 540);
             button2.Name = "button2";
             button2.Size = new Size(82, 75);
             button2.TabIndex = 51;

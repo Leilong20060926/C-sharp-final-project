@@ -134,9 +134,9 @@
             button2.BackgroundImageLayout = ImageLayout.Zoom;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(-10, 619);
+            button2.Location = new Point(12, 540);
             button2.Name = "button2";
-            button2.Size = new Size(144, 75);
+            button2.Size = new Size(72, 75);
             button2.TabIndex = 69;
             button2.Text = "PREV";
             button2.UseVisualStyleBackColor = false;
