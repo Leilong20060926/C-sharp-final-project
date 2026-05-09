@@ -47,7 +47,7 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = Properties.Resources.星星亮;
-            pictureBox1.Location = new Point(381, 44);
+            pictureBox1.Location = new Point(383, 44);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(50, 47);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -104,7 +104,7 @@
             radioButton3.AutoSize = true;
             radioButton3.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             radioButton3.ForeColor = SystemColors.ControlLightLight;
-            radioButton3.Location = new Point(47, 332);
+            radioButton3.Location = new Point(47, 329);
             radioButton3.Name = "radioButton3";
             radioButton3.Size = new Size(365, 46);
             radioButton3.TabIndex = 62;
@@ -140,9 +140,12 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.FromArgb(10, 25, 47);
+            button2.BackColor = Color.Transparent;
             button2.BackgroundImage = Properties.Resources.按鈕1;
             button2.BackgroundImageLayout = ImageLayout.Zoom;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button2.FlatAppearance.MouseOverBackColor = Color.Transparent;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.Location = new Point(12, 540);
@@ -151,12 +154,17 @@
             button2.TabIndex = 69;
             button2.Text = "PREV";
             button2.UseVisualStyleBackColor = false;
+            button2.MouseLeave += button2_MouseLeave;
+            button2.MouseHover += button2_MouseHover;
             // 
             // button3
             // 
-            button3.BackColor = Color.FromArgb(10, 25, 47);
+            button3.BackColor = Color.Transparent;
             button3.BackgroundImage = Properties.Resources.按鈕1;
             button3.BackgroundImageLayout = ImageLayout.Zoom;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button3.FlatAppearance.MouseOverBackColor = Color.Transparent;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.Location = new Point(386, 540);
@@ -165,6 +173,9 @@
             button3.TabIndex = 68;
             button3.Text = "NEXT";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            button3.MouseLeave += button3_MouseLeave;
+            button3.MouseHover += button3_MouseHover;
             // 
             // pictureBox2
             // 

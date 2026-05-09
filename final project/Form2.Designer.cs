@@ -46,17 +46,23 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.FromArgb(10, 25, 47);
+            button1.BackColor = Color.Transparent;
             button1.BackgroundImage = Properties.Resources.按鈕1;
             button1.BackgroundImageLayout = ImageLayout.Zoom;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button1.FlatAppearance.MouseOverBackColor = Color.Transparent;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.Location = new Point(386, 540);
             button1.Name = "button1";
-            button1.Size = new Size(75, 75);
+            button1.Size = new Size(85, 75);
             button1.TabIndex = 2;
             button1.Text = "NEXT";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            button1.MouseLeave += button1_MouseLeave;
+            button1.MouseHover += button1_MouseHover;
             // 
             // richTextBox1
             // 
@@ -127,9 +133,12 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.FromArgb(10, 25, 47);
+            button2.BackColor = Color.Transparent;
             button2.BackgroundImage = Properties.Resources.按鈕1;
             button2.BackgroundImageLayout = ImageLayout.Zoom;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button2.FlatAppearance.MouseOverBackColor = Color.Transparent;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.Location = new Point(12, 540);
@@ -138,6 +147,9 @@
             button2.TabIndex = 9;
             button2.Text = "PREV";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            button2.MouseLeave += button2_MouseLeave;
+            button2.MouseHover += button2_MouseHover;
             // 
             // pictureBox2
             // 

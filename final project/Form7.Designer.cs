@@ -129,9 +129,12 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.FromArgb(10, 25, 47);
+            button2.BackColor = Color.Transparent;
             button2.BackgroundImage = Properties.Resources.按鈕1;
             button2.BackgroundImageLayout = ImageLayout.Zoom;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button2.FlatAppearance.MouseOverBackColor = Color.Transparent;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.Location = new Point(12, 540);
@@ -140,20 +143,29 @@
             button2.TabIndex = 69;
             button2.Text = "PREV";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            button2.MouseLeave += button2_MouseLeave;
+            button2.MouseHover += button2_MouseHover;
             // 
             // button3
             // 
-            button3.BackColor = Color.FromArgb(10, 25, 47);
+            button3.BackColor = Color.Transparent;
             button3.BackgroundImage = Properties.Resources.按鈕1;
             button3.BackgroundImageLayout = ImageLayout.Zoom;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button3.FlatAppearance.MouseOverBackColor = Color.Transparent;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button3.Location = new Point(386, 540);
             button3.Name = "button3";
-            button3.Size = new Size(75, 75);
+            button3.Size = new Size(85, 75);
             button3.TabIndex = 68;
             button3.Text = "NEXT";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            button3.MouseLeave += button3_MouseLeave;
+            button3.MouseHover += button3_MouseHover;
             // 
             // pictureBox1
             // 
