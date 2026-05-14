@@ -87,7 +87,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Gill Sans Ultra Bold", 8F);
-            label1.ForeColor = Color.Black;
+            label1.ForeColor = Color.FromArgb(17, 51, 23);
             label1.Location = new Point(30, 53);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
@@ -114,16 +114,16 @@
             panel1.Controls.Add(panel6);
             panel1.Controls.Add(label15);
             panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(364, 89);
+            panel1.Location = new Point(364, 91);
             panel1.Name = "panel1";
-            panel1.Size = new Size(189, 214);
+            panel1.Size = new Size(189, 208);
             panel1.TabIndex = 3;
             panel1.Paint += panel1_Paint;
             // 
             // panel6
             // 
-            panel6.BackColor = Color.FromArgb(53, 85, 62);
-            panel6.Location = new Point(3, 167);
+            panel6.BackColor = Color.FromArgb(17, 51, 23);
+            panel6.Location = new Point(1, 162);
             panel6.Name = "panel6";
             panel6.Size = new Size(249, 44);
             panel6.TabIndex = 1;
@@ -140,9 +140,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(2, 31);
+            pictureBox1.Location = new Point(2, 37);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(186, 122);
+            pictureBox1.Size = new Size(184, 122);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -150,7 +150,9 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.White;
             label4.Font = new Font("Arial Rounded MT Bold", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.FromArgb(17, 51, 23);
             label4.Location = new Point(16, 19);
             label4.Name = "label4";
             label4.Size = new Size(450, 18);
@@ -161,6 +163,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Arial Rounded MT Bold", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.FromArgb(17, 51, 23);
             label5.Location = new Point(16, 54);
             label5.Name = "label5";
             label5.Size = new Size(503, 18);
@@ -180,6 +183,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Arial Rounded MT Bold", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.FromArgb(17, 51, 23);
             label7.Location = new Point(16, 91);
             label7.Name = "label7";
             label7.Size = new Size(444, 18);
@@ -215,6 +219,7 @@
             // 
             label21.AutoSize = true;
             label21.Font = new Font("Arial Rounded MT Bold", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label21.ForeColor = Color.FromArgb(17, 51, 23);
             label21.Location = new Point(16, 128);
             label21.Name = "label21";
             label21.Size = new Size(340, 18);
@@ -223,7 +228,7 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.Black;
+            panel3.BackColor = Color.FromArgb(17, 51, 23);
             panel3.Controls.Add(label9);
             panel3.Location = new Point(26, 321);
             panel3.Name = "panel3";
@@ -244,7 +249,7 @@
             // 
             // panel4
             // 
-            panel4.BackColor = Color.Black;
+            panel4.BackColor = Color.FromArgb(17, 51, 23);
             panel4.Controls.Add(label11);
             panel4.Controls.Add(label10);
             panel4.Location = new Point(26, 550);
@@ -256,7 +261,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.BackColor = Color.Black;
+            label11.BackColor = Color.Transparent;
             label11.ForeColor = Color.White;
             label11.Location = new Point(24, 109);
             label11.Name = "label11";
@@ -267,7 +272,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.BackColor = Color.Black;
+            label10.BackColor = Color.Transparent;
             label10.ForeColor = Color.White;
             label10.Location = new Point(3, 78);
             label10.Name = "label10";
@@ -292,6 +297,7 @@
             // 
             label14.AutoSize = true;
             label14.Font = new Font("Arial Rounded MT Bold", 7F);
+            label14.ForeColor = Color.FromArgb(17, 51, 23);
             label14.Location = new Point(155, 165);
             label14.Name = "label14";
             label14.Size = new Size(90, 16);
@@ -302,6 +308,7 @@
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Arial Rounded MT Bold", 7F);
+            label13.ForeColor = Color.FromArgb(17, 51, 23);
             label13.Location = new Point(283, 165);
             label13.Name = "label13";
             label13.RightToLeft = RightToLeft.Yes;
@@ -313,6 +320,7 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Arial Rounded MT Bold", 7F);
+            label12.ForeColor = Color.FromArgb(17, 51, 23);
             label12.Location = new Point(10, 165);
             label12.Name = "label12";
             label12.Size = new Size(110, 16);
@@ -333,7 +341,8 @@
             // button1
             // 
             button1.BackColor = Color.AntiqueWhite;
-            button1.Location = new Point(427, 776);
+            button1.ForeColor = Color.FromArgb(17, 51, 23);
+            button1.Location = new Point(407, 776);
             button1.Name = "button1";
             button1.Size = new Size(143, 34);
             button1.TabIndex = 8;
@@ -346,7 +355,7 @@
             panel7.Controls.Add(panel13);
             panel7.Controls.Add(panel12);
             panel7.Controls.Add(label16);
-            panel7.Location = new Point(37, 156);
+            panel7.Location = new Point(37, 159);
             panel7.Name = "panel7";
             panel7.Size = new Size(157, 36);
             panel7.TabIndex = 9;
@@ -373,7 +382,7 @@
             label16.AutoSize = true;
             label16.Font = new Font("Arial Rounded MT Bold", 8F);
             label16.ForeColor = Color.White;
-            label16.Location = new Point(7, 9);
+            label16.Location = new Point(7, 11);
             label16.Name = "label16";
             label16.Size = new Size(147, 18);
             label16.TabIndex = 0;
@@ -383,7 +392,7 @@
             // 
             panel8.BackColor = Color.FromArgb(53, 85, 62);
             panel8.Controls.Add(label17);
-            panel8.Location = new Point(207, 156);
+            panel8.Location = new Point(207, 159);
             panel8.Name = "panel8";
             panel8.Size = new Size(123, 36);
             panel8.TabIndex = 10;
@@ -394,7 +403,7 @@
             label17.AutoSize = true;
             label17.Font = new Font("Arial Rounded MT Bold", 8F);
             label17.ForeColor = Color.White;
-            label17.Location = new Point(7, 9);
+            label17.Location = new Point(6, 11);
             label17.Name = "label17";
             label17.Size = new Size(114, 18);
             label17.TabIndex = 0;
@@ -404,7 +413,7 @@
             // 
             panel9.BackColor = Color.FromArgb(53, 85, 62);
             panel9.Controls.Add(label20);
-            panel9.Location = new Point(37, 209);
+            panel9.Location = new Point(37, 206);
             panel9.Name = "panel9";
             panel9.Size = new Size(162, 36);
             panel9.TabIndex = 11;
@@ -415,7 +424,7 @@
             label20.AutoSize = true;
             label20.Font = new Font("Arial Rounded MT Bold", 8F);
             label20.ForeColor = Color.White;
-            label20.Location = new Point(7, 9);
+            label20.Location = new Point(6, 8);
             label20.Name = "label20";
             label20.Size = new Size(153, 18);
             label20.TabIndex = 16;
@@ -425,7 +434,7 @@
             // 
             panel10.BackColor = Color.FromArgb(53, 85, 62);
             panel10.Controls.Add(label19);
-            panel10.Location = new Point(207, 209);
+            panel10.Location = new Point(207, 206);
             panel10.Name = "panel10";
             panel10.Size = new Size(141, 36);
             panel10.TabIndex = 12;
@@ -436,7 +445,7 @@
             label19.AutoSize = true;
             label19.Font = new Font("Arial Rounded MT Bold", 8F);
             label19.ForeColor = Color.White;
-            label19.Location = new Point(5, 9);
+            label19.Location = new Point(5, 8);
             label19.Name = "label19";
             label19.Size = new Size(129, 18);
             label19.TabIndex = 15;
@@ -446,7 +455,7 @@
             // 
             panel11.BackColor = Color.FromArgb(53, 85, 62);
             panel11.Controls.Add(label18);
-            panel11.Location = new Point(37, 258);
+            panel11.Location = new Point(37, 252);
             panel11.Name = "panel11";
             panel11.Size = new Size(177, 37);
             panel11.TabIndex = 13;
@@ -457,7 +466,7 @@
             label18.AutoSize = true;
             label18.Font = new Font("Arial Rounded MT Bold", 8F);
             label18.ForeColor = Color.White;
-            label18.Location = new Point(6, 10);
+            label18.Location = new Point(6, 9);
             label18.Name = "label18";
             label18.Size = new Size(165, 18);
             label18.TabIndex = 14;
@@ -468,7 +477,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.FromArgb(253, 255, 225);
             label3.Font = new Font("Berlin Sans FB", 14F, FontStyle.Bold);
-            label3.ForeColor = Color.Black;
+            label3.ForeColor = Color.FromArgb(17, 51, 23);
             label3.Location = new Point(4, 9);
             label3.Margin = new Padding(0);
             label3.Name = "label3";
@@ -483,7 +492,7 @@
             panel14.Controls.Add(label3);
             panel14.Location = new Point(25, 91);
             panel14.Name = "panel14";
-            panel14.Size = new Size(337, 53);
+            panel14.Size = new Size(335, 53);
             panel14.TabIndex = 14;
             panel14.Paint += panel14_Paint;
             // 
@@ -492,7 +501,7 @@
             panel15.BackColor = Color.FromArgb(225, 251, 192);
             panel15.Location = new Point(26, 146);
             panel15.Name = "panel15";
-            panel15.Size = new Size(337, 153);
+            panel15.Size = new Size(334, 153);
             panel15.TabIndex = 15;
             panel15.Paint += panel15_Paint;
             // 
