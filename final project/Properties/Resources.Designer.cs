@@ -59,5 +59,176 @@ namespace final_project.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap _4_29_2_ {
+            get {
+                object obj = ResourceManager.GetObject("4.29(2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap astronomical_kittens___removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("astronomical_kittens__-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_2026年5月5日_上午12_54_12 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 2026年5月5日 上午12_54_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap earth__1_ {
+            get {
+                object obj = ResourceManager.GetObject("earth (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap earth__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("earth__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap earth_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("earth-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap easter {
+            get {
+                object obj = ResourceManager.GetObject("easter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Scarica_premio_vettoriale_di_colorato_galassia_acquerello_scarabocchio_su_sfondo_nero_vettore_di_Toon_su_astronauta__carattere_illustrazione_nero_ {
+            get {
+                object obj = ResourceManager.GetObject("Scarica premio vettoriale di colorato galassia acquerello scarabocchio su sfondo " +
+                        "nero vettore di Toon su astronauta, carattere illustrazione nero,", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 下載_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("下載-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 地球貓 {
+            get {
+                object obj = ResourceManager.GetObject("地球貓", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 宇宙貓 {
+            get {
+                object obj = ResourceManager.GetObject("宇宙貓", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 宇宙貓1 {
+            get {
+                object obj = ResourceManager.GetObject("宇宙貓1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 按鈕 {
+            get {
+                object obj = ResourceManager.GetObject("按鈕", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 按鈕1 {
+            get {
+                object obj = ResourceManager.GetObject("按鈕1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 星星亮 {
+            get {
+                object obj = ResourceManager.GetObject("星星亮", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 貓貓星球 {
+            get {
+                object obj = ResourceManager.GetObject("貓貓星球", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 貓貓星球1 {
+            get {
+                object obj = ResourceManager.GetObject("貓貓星球1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

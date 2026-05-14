@@ -8,29 +8,29 @@ using System.Windows.Forms;
 
 namespace final_project
 {
-    public partial class Form3 : Form
+    public partial class Form5 : Form
     {
-        public Form3()
+        public Form5()
         {
             InitializeComponent();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form4 f4 = new Form4();
-            f4.Show();
+            Form6 f6 = new Form6();
+            f6.Show();
             this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
-            f2.Show();
+            Form4 f4 = new Form4();
+            f4.Show();
             this.Hide();
         }
         private void button3_MouseHover(object sender, EventArgs e)
