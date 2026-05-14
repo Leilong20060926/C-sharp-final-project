@@ -489,8 +489,8 @@
             // 
             // panel15
             // 
-            panel15.BackColor = Color.Transparent;
-            panel15.Location = new Point(25, 150);
+            panel15.BackColor = Color.FromArgb(225, 251, 192);
+            panel15.Location = new Point(26, 146);
             panel15.Name = "panel15";
             panel15.Size = new Size(337, 153);
             panel15.TabIndex = 15;

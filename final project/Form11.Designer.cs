@@ -1,6 +1,6 @@
 ﻿namespace final_project
 {
-    partial class Form3
+    partial class Form11
     {
         /// <summary>
         /// Required designer variable.
@@ -28,24 +28,119 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button2 = new Button();
+            pictureBox1 = new PictureBox();
+            label2 = new Label();
+            panel1 = new Panel();
+            richTextBox1 = new RichTextBox();
             radioButton4 = new RadioButton();
             radioButton3 = new RadioButton();
             radioButton2 = new RadioButton();
             radioButton1 = new RadioButton();
+            button2 = new Button();
             button3 = new Button();
-            richTextBox1 = new RichTextBox();
-            label2 = new Label();
-            panel1 = new Panel();
             pictureBox2 = new PictureBox();
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Image = Properties.Resources.星星亮;
+            pictureBox1.Location = new Point(383, 44);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(50, 47);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 67;
+            pictureBox1.TabStop = false;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = SystemColors.ButtonHighlight;
+            label2.Location = new Point(401, 15);
+            label2.Name = "label2";
+            label2.Size = new Size(60, 26);
+            label2.TabIndex = 66;
+            label2.Text = "100%";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.White;
+            panel1.Location = new Point(47, 66);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(385, 10);
+            panel1.TabIndex = 65;
+            // 
+            // richTextBox1
+            // 
+            richTextBox1.BackColor = Color.FromArgb(10, 25, 47);
+            richTextBox1.BorderStyle = BorderStyle.None;
+            richTextBox1.Font = new Font("Arial Rounded MT Bold", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            richTextBox1.ForeColor = SystemColors.Window;
+            richTextBox1.Location = new Point(47, 133);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.ReadOnly = true;
+            richTextBox1.Size = new Size(361, 76);
+            richTextBox1.TabIndex = 64;
+            richTextBox1.Text = "The mission is complete. Looking back, \nwhat matters most to you?\n";
+            // 
+            // radioButton4
+            // 
+            radioButton4.AutoSize = true;
+            radioButton4.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            radioButton4.ForeColor = SystemColors.ControlLightLight;
+            radioButton4.Location = new Point(47, 403);
+            radioButton4.Name = "radioButton4";
+            radioButton4.Size = new Size(309, 46);
+            radioButton4.TabIndex = 63;
+            radioButton4.TabStop = true;
+            radioButton4.Text = "Whether you challenged yourself and \r\nachieved growth\r\n";
+            radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            radioButton3.AutoSize = true;
+            radioButton3.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            radioButton3.ForeColor = SystemColors.ControlLightLight;
+            radioButton3.Location = new Point(47, 329);
+            radioButton3.Name = "radioButton3";
+            radioButton3.Size = new Size(365, 46);
+            radioButton3.TabIndex = 62;
+            radioButton3.TabStop = true;
+            radioButton3.Text = "Whether the result expressed style, emotion, \r\nand beauty";
+            radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            radioButton2.ForeColor = SystemColors.ControlLightLight;
+            radioButton2.Location = new Point(47, 273);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(385, 25);
+            radioButton2.TabIndex = 61;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Whether you helped others in a meaningful way";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            radioButton1.ForeColor = SystemColors.ControlLightLight;
+            radioButton1.Location = new Point(47, 215);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(356, 25);
+            radioButton1.TabIndex = 60;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Whether everyone felt happy and connected";
+            radioButton1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.BackColor = Color.FromArgb(10, 25, 47);
+            button2.BackColor = Color.Transparent;
             button2.BackgroundImage = Properties.Resources.按鈕1;
             button2.BackgroundImageLayout = ImageLayout.Zoom;
             button2.FlatAppearance.BorderSize = 0;
@@ -55,65 +150,12 @@
             button2.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.Location = new Point(12, 540);
             button2.Name = "button2";
-            button2.Size = new Size(81, 75);
-            button2.TabIndex = 17;
+            button2.Size = new Size(77, 75);
+            button2.TabIndex = 69;
             button2.Text = "PREV";
             button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
             button2.MouseLeave += button2_MouseLeave;
             button2.MouseHover += button2_MouseHover;
-            // 
-            // radioButton4
-            // 
-            radioButton4.AutoSize = true;
-            radioButton4.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton4.ForeColor = SystemColors.ControlLightLight;
-            radioButton4.Location = new Point(47, 458);
-            radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(357, 25);
-            radioButton4.TabIndex = 16;
-            radioButton4.TabStop = true;
-            radioButton4.Text = "Whether the task flow is logical and efficient\r\n";
-            radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            radioButton3.AutoSize = true;
-            radioButton3.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton3.ForeColor = SystemColors.ControlLightLight;
-            radioButton3.Location = new Point(47, 373);
-            radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(329, 46);
-            radioButton3.TabIndex = 15;
-            radioButton3.TabStop = true;
-            radioButton3.Text = "Whether the sounds and rhythms in the \r\nspace feel natural and comfortable";
-            radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton2.ForeColor = SystemColors.ControlLightLight;
-            radioButton2.Location = new Point(47, 244);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(326, 46);
-            radioButton2.TabIndex = 14;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Whether the interface and visuals \r\nare consistent and aesthetically pleasing\r\n";
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Font = new Font("Noto Serif KR", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            radioButton1.ForeColor = SystemColors.ControlLightLight;
-            radioButton1.Location = new Point(47, 318);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(316, 25);
-            radioButton1.TabIndex = 13;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Whether any cat needs support or care";
-            radioButton1.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -125,106 +167,63 @@
             button3.FlatAppearance.MouseOverBackColor = Color.Transparent;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("MV Boli", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.Location = new Point(384, 540);
+            button3.Location = new Point(386, 540);
             button3.Name = "button3";
-            button3.Size = new Size(91, 75);
-            button3.TabIndex = 11;
+            button3.Size = new Size(80, 75);
+            button3.TabIndex = 68;
             button3.Text = "NEXT";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             button3.MouseLeave += button3_MouseLeave;
             button3.MouseHover += button3_MouseHover;
             // 
-            // richTextBox1
-            // 
-            richTextBox1.BackColor = Color.FromArgb(10, 25, 47);
-            richTextBox1.BorderStyle = BorderStyle.None;
-            richTextBox1.Font = new Font("Arial Rounded MT Bold", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            richTextBox1.ForeColor = SystemColors.Window;
-            richTextBox1.Location = new Point(47, 133);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.ReadOnly = true;
-            richTextBox1.Size = new Size(361, 93);
-            richTextBox1.TabIndex = 18;
-            richTextBox1.Text = "The captain cat begins assigning roles—navigation, repair, and documentation. What matters most to you?";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.ForeColor = SystemColors.ButtonHighlight;
-            label2.Location = new Point(413, 22);
-            label2.Name = "label2";
-            label2.Size = new Size(49, 26);
-            label2.TabIndex = 27;
-            label2.Text = "20%";
-            // 
-            // panel1
-            // 
-            panel1.BackColor = Color.White;
-            panel1.Location = new Point(47, 66);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(385, 10);
-            panel1.TabIndex = 25;
-            // 
             // pictureBox2
             // 
-            pictureBox2.BackColor = Color.Transparent;
-            pictureBox2.Image = Properties.Resources.星星亮;
-            pictureBox2.Location = new Point(78, 44);
+            pictureBox2.Image = Properties.Resources.地球貓;
+            pictureBox2.Location = new Point(90, 540);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(50, 47);
+            pictureBox2.Size = new Size(288, 160);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 38;
+            pictureBox2.TabIndex = 70;
             pictureBox2.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.地球貓;
-            pictureBox1.Location = new Point(90, 540);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(288, 160);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 72;
-            pictureBox1.TabStop = false;
-            // 
-            // Form3
+            // Form11
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(10, 24, 47);
             ClientSize = new Size(473, 697);
-            Controls.Add(pictureBox1);
+            Controls.Add(button2);
+            Controls.Add(button3);
             Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
             Controls.Add(label2);
             Controls.Add(panel1);
             Controls.Add(richTextBox1);
-            Controls.Add(button2);
             Controls.Add(radioButton4);
             Controls.Add(radioButton3);
             Controls.Add(radioButton2);
             Controls.Add(radioButton1);
-            Controls.Add(button3);
-            Margin = new Padding(2);
-            Name = "Form3";
-            Text = " ";
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            Name = "Form11";
+            Text = "Form11";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private Button button2;
+
+        private PictureBox pictureBox1;
+        private Label label2;
+        private Panel panel1;
+        private RichTextBox richTextBox1;
         private RadioButton radioButton4;
         private RadioButton radioButton3;
         private RadioButton radioButton2;
         private RadioButton radioButton1;
+        private Button button2;
         private Button button3;
-        private RichTextBox richTextBox1;
-        private Label label2;
-        private Panel panel1;
         private PictureBox pictureBox2;
-        private PictureBox pictureBox1;
     }
 }

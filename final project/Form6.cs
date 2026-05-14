@@ -8,31 +8,27 @@ using System.Windows.Forms;
 
 namespace final_project
 {
-    public partial class Form3 : Form
+    public partial class Form6 : Form
     {
-        public Form3()
+        public Form6()
         {
             InitializeComponent();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            Form5 f5 = new Form5();
+            f5.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form4 f4 = new Form4();
-            f4.Show();
+            Form7 f7 = new Form7();
+            f7.Show();
             this.Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form2 f2 = new Form2();
-            f2.Show();
-            this.Hide();
-        }
         private void button3_MouseHover(object sender, EventArgs e)
         {
             button3.ForeColor = Color.MediumPurple;
