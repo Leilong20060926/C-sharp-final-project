@@ -41,6 +41,7 @@
             label7 = new Label();
             label8 = new Label();
             panel2 = new Panel();
+            label21 = new Label();
             panel3 = new Panel();
             label9 = new Label();
             panel4 = new Panel();
@@ -87,7 +88,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Gill Sans Ultra Bold", 8F);
             label1.ForeColor = Color.Black;
-            label1.Location = new Point(30, 50);
+            label1.Location = new Point(30, 53);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(140, 23);
@@ -100,7 +101,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Gill Sans Ultra Bold", 13F);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(172, 41);
+            label2.Location = new Point(165, 44);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(204, 35);
@@ -112,9 +113,10 @@
             // 
             panel1.Controls.Add(panel6);
             panel1.Controls.Add(label15);
-            panel1.Location = new Point(399, 85);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Location = new Point(364, 89);
             panel1.Name = "panel1";
-            panel1.Size = new Size(255, 214);
+            panel1.Size = new Size(189, 214);
             panel1.TabIndex = 3;
             panel1.Paint += panel1_Paint;
             // 
@@ -138,9 +140,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(410, 99);
+            pictureBox1.Location = new Point(2, 31);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(233, 147);
+            pictureBox1.Size = new Size(186, 122);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -149,21 +151,21 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial Rounded MT Bold", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(25, 33);
+            label4.Location = new Point(16, 19);
             label4.Name = "label4";
-            label4.Size = new Size(570, 18);
+            label4.Size = new Size(450, 18);
             label4.TabIndex = 0;
-            label4.Text = "You didn’t come here to guess. You came here to figure everything out.";
+            label4.Text = "You didn’t come here to guess. You came here to figure ";
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Arial Rounded MT Bold", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(25, 68);
+            label5.Location = new Point(16, 54);
             label5.Name = "label5";
-            label5.Size = new Size(524, 18);
+            label5.Size = new Size(503, 18);
             label5.TabIndex = 1;
-            label5.Text = "While everyone else is panicking, you’re already 10 steps ahead, ";
+            label5.Text = "figure everything out. While everyone else is panicking, you’re ";
             // 
             // label6
             // 
@@ -178,11 +180,11 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Arial Rounded MT Bold", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(25, 105);
+            label7.Location = new Point(16, 91);
             label7.Name = "label7";
-            label7.Size = new Size(581, 18);
+            label7.Size = new Size(444, 18);
             label7.TabIndex = 3;
-            label7.Text = "analyzing patterns, predicting outcomes, and silently carrying the team. ";
+            label7.Text = "already 10 steps ahead, analyzing patterns, predicting ";
             label7.Click += label7_Click;
             // 
             // label8
@@ -197,24 +199,35 @@
             // panel2
             // 
             panel2.BackColor = Color.White;
+            panel2.Controls.Add(label21);
             panel2.Controls.Add(label8);
             panel2.Controls.Add(label7);
             panel2.Controls.Add(label6);
             panel2.Controls.Add(label5);
             panel2.Controls.Add(label4);
-            panel2.Location = new Point(30, 360);
+            panel2.Location = new Point(26, 370);
             panel2.Name = "panel2";
-            panel2.Size = new Size(621, 160);
+            panel2.Size = new Size(525, 167);
             panel2.TabIndex = 4;
             panel2.Paint += panel2_Paint;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Font = new Font("Arial Rounded MT Bold", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label21.Location = new Point(16, 128);
+            label21.Name = "label21";
+            label21.Size = new Size(340, 18);
+            label21.TabIndex = 5;
+            label21.Text = "outcomes, and silently carrying the team. ";
             // 
             // panel3
             // 
             panel3.BackColor = Color.Black;
             panel3.Controls.Add(label9);
-            panel3.Location = new Point(30, 311);
+            panel3.Location = new Point(26, 321);
             panel3.Name = "panel3";
-            panel3.Size = new Size(621, 48);
+            panel3.Size = new Size(525, 48);
             panel3.TabIndex = 5;
             panel3.Paint += panel3_Paint;
             // 
@@ -222,7 +235,7 @@
             // 
             label9.AutoSize = true;
             label9.ForeColor = Color.White;
-            label9.Location = new Point(132, 13);
+            label9.Location = new Point(97, 13);
             label9.Name = "label9";
             label9.Size = new Size(345, 23);
             label9.TabIndex = 0;
@@ -234,9 +247,9 @@
             panel4.BackColor = Color.Black;
             panel4.Controls.Add(label11);
             panel4.Controls.Add(label10);
-            panel4.Location = new Point(30, 527);
+            panel4.Location = new Point(26, 550);
             panel4.Name = "panel4";
-            panel4.Size = new Size(121, 223);
+            panel4.Size = new Size(121, 205);
             panel4.TabIndex = 6;
             panel4.Paint += panel4_Paint;
             // 
@@ -245,7 +258,7 @@
             label11.AutoSize = true;
             label11.BackColor = Color.Black;
             label11.ForeColor = Color.White;
-            label11.Location = new Point(24, 119);
+            label11.Location = new Point(24, 109);
             label11.Name = "label11";
             label11.Size = new Size(72, 23);
             label11.TabIndex = 9;
@@ -256,7 +269,7 @@
             label10.AutoSize = true;
             label10.BackColor = Color.Black;
             label10.ForeColor = Color.White;
-            label10.Location = new Point(3, 86);
+            label10.Location = new Point(3, 78);
             label10.Name = "label10";
             label10.Size = new Size(113, 23);
             label10.TabIndex = 8;
@@ -269,40 +282,40 @@
             panel5.Controls.Add(label13);
             panel5.Controls.Add(label12);
             panel5.Controls.Add(pictureBox2);
-            panel5.Location = new Point(152, 527);
+            panel5.Location = new Point(148, 550);
             panel5.Name = "panel5";
-            panel5.Size = new Size(499, 223);
+            panel5.Size = new Size(403, 205);
             panel5.TabIndex = 7;
             panel5.Paint += panel5_Paint;
             // 
             // label14
             // 
             label14.AutoSize = true;
-            label14.Font = new Font("Arial Rounded MT Bold", 8F);
-            label14.Location = new Point(188, 174);
+            label14.Font = new Font("Arial Rounded MT Bold", 7F);
+            label14.Location = new Point(155, 165);
             label14.Name = "label14";
-            label14.Size = new Size(106, 18);
+            label14.Size = new Size(90, 16);
             label14.TabIndex = 3;
             label14.Text = "Debate Club";
             // 
             // label13
             // 
             label13.AutoSize = true;
-            label13.Font = new Font("Arial Rounded MT Bold", 8F);
-            label13.Location = new Point(328, 174);
+            label13.Font = new Font("Arial Rounded MT Bold", 7F);
+            label13.Location = new Point(283, 165);
             label13.Name = "label13";
             label13.RightToLeft = RightToLeft.Yes;
-            label13.Size = new Size(135, 18);
+            label13.Size = new Size(115, 16);
             label13.TabIndex = 2;
             label13.Text = "Astronomy Club";
             // 
             // label12
             // 
             label12.AutoSize = true;
-            label12.Font = new Font("Arial Rounded MT Bold", 8F);
-            label12.Location = new Point(32, 174);
+            label12.Font = new Font("Arial Rounded MT Bold", 7F);
+            label12.Location = new Point(10, 165);
             label12.Name = "label12";
-            label12.Size = new Size(127, 18);
+            label12.Size = new Size(110, 16);
             label12.TabIndex = 1;
             label12.Text = "Light & Salt Club";
             label12.Click += label12_Click;
@@ -310,9 +323,9 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(20, 27);
+            pictureBox2.Location = new Point(3, 27);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(457, 153);
+            pictureBox2.Size = new Size(397, 130);
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
@@ -320,7 +333,7 @@
             // button1
             // 
             button1.BackColor = Color.AntiqueWhite;
-            button1.Location = new Point(508, 766);
+            button1.Location = new Point(427, 776);
             button1.Name = "button1";
             button1.Size = new Size(143, 34);
             button1.TabIndex = 8;
@@ -333,7 +346,7 @@
             panel7.Controls.Add(panel13);
             panel7.Controls.Add(panel12);
             panel7.Controls.Add(label16);
-            panel7.Location = new Point(47, 152);
+            panel7.Location = new Point(37, 156);
             panel7.Name = "panel7";
             panel7.Size = new Size(157, 36);
             panel7.TabIndex = 9;
@@ -370,7 +383,7 @@
             // 
             panel8.BackColor = Color.FromArgb(53, 85, 62);
             panel8.Controls.Add(label17);
-            panel8.Location = new Point(217, 152);
+            panel8.Location = new Point(207, 156);
             panel8.Name = "panel8";
             panel8.Size = new Size(123, 36);
             panel8.TabIndex = 10;
@@ -391,7 +404,7 @@
             // 
             panel9.BackColor = Color.FromArgb(53, 85, 62);
             panel9.Controls.Add(label20);
-            panel9.Location = new Point(47, 205);
+            panel9.Location = new Point(37, 209);
             panel9.Name = "panel9";
             panel9.Size = new Size(162, 36);
             panel9.TabIndex = 11;
@@ -412,7 +425,7 @@
             // 
             panel10.BackColor = Color.FromArgb(53, 85, 62);
             panel10.Controls.Add(label19);
-            panel10.Location = new Point(217, 205);
+            panel10.Location = new Point(207, 209);
             panel10.Name = "panel10";
             panel10.Size = new Size(141, 36);
             panel10.TabIndex = 12;
@@ -433,7 +446,7 @@
             // 
             panel11.BackColor = Color.FromArgb(53, 85, 62);
             panel11.Controls.Add(label18);
-            panel11.Location = new Point(47, 254);
+            panel11.Location = new Point(37, 258);
             panel11.Name = "panel11";
             panel11.Size = new Size(177, 37);
             panel11.TabIndex = 13;
@@ -456,7 +469,7 @@
             label3.BackColor = Color.FromArgb(253, 255, 225);
             label3.Font = new Font("Berlin Sans FB", 14F, FontStyle.Bold);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(21, 9);
+            label3.Location = new Point(4, 9);
             label3.Margin = new Padding(0);
             label3.Name = "label3";
             label3.Size = new Size(328, 35);
@@ -468,18 +481,18 @@
             // 
             panel14.BackColor = Color.White;
             panel14.Controls.Add(label3);
-            panel14.Location = new Point(26, 87);
+            panel14.Location = new Point(25, 91);
             panel14.Name = "panel14";
-            panel14.Size = new Size(364, 53);
+            panel14.Size = new Size(337, 53);
             panel14.TabIndex = 14;
             panel14.Paint += panel14_Paint;
             // 
             // panel15
             // 
             panel15.BackColor = Color.Transparent;
-            panel15.Location = new Point(26, 146);
+            panel15.Location = new Point(25, 150);
             panel15.Name = "panel15";
-            panel15.Size = new Size(364, 153);
+            panel15.Size = new Size(337, 153);
             panel15.TabIndex = 15;
             panel15.Paint += panel15_Paint;
             // 
@@ -488,7 +501,7 @@
             AutoScaleDimensions = new SizeF(13F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(191, 215, 144);
-            ClientSize = new Size(682, 844);
+            ClientSize = new Size(578, 844);
             Controls.Add(panel11);
             Controls.Add(panel9);
             Controls.Add(panel8);
@@ -498,7 +511,6 @@
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel2);
-            Controls.Add(pictureBox1);
             Controls.Add(panel1);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -578,5 +590,6 @@
         private Panel panel13;
         private Panel panel14;
         private Panel panel15;
+        private Label label21;
     }
 }
