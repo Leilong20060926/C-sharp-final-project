@@ -1,3 +1,5 @@
+using 結果圖1;
+
 namespace final_project
 {
     internal static class Program
