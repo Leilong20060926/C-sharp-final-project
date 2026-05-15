@@ -135,6 +135,7 @@ namespace 結果圖1
 
         }
 
+        //框框圓角
         private void RoundPanel(Panel panel, int radius)
         {
             GraphicsPath path = new GraphicsPath();
@@ -217,6 +218,38 @@ namespace 結果圖1
             );
 
             RoundPanel(panel15, 30);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //鼠標移到button1放大效果
+
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            button1.Location = new Point(392, 772);
+            button1.Size = new Size(182, 46);
+            button1.Font = new Font("Gill Sans Ultra Bold", 10);
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.Size = new Size(140, 35);
+            button1.Font = new Font("Gill Sans Ultra Bold", 8);
+            button1.Location = new Point(413, 777);
+        }
+
+        //鼠標移到linkLabel1字變白色
+        private void linkLabel1_MouseHover(object sender, EventArgs e)
+        {
+            linkLabel1.LinkColor = Color.White;
+        }
+
+        private void linkLabel1_MouseLeave(object sender, EventArgs e)
+        {
+            linkLabel1.LinkColor = Color.FromArgb(17, 51, 23);
         }
     }
 
