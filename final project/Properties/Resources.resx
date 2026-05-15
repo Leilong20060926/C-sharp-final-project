@@ -127,6 +127,9 @@
   <data name="ChatGPT Image 2026年5月5日 上午12_54_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChatGPT Image 2026年5月5日 上午12_54_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="地球貓" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\地球貓.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="下載-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\下載-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,31 +145,37 @@
   <data name="按鈕" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\按鈕.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="easter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\easter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="earth (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\earth (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Scarica premio vettoriale di colorato galassia acquerello scarabocchio su sfondo nero vettore di Toon su astronauta, carattere illustrazione nero," type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Scarica premio vettoriale di colorato galassia acquerello scarabocchio su sfondo nero vettore di Toon su astronauta, carattere illustrazione nero,.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="貓貓星球" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\貓貓星球.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="按鈕1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\按鈕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="earth-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\earth-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="宇宙貓1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\宇宙貓1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="earth__1_-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\earth__1_-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="地球貓" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\地球貓.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Scarica premio vettoriale di colorato galassia acquerello scarabocchio su sfondo nero vettore di Toon su astronauta, carattere illustrazione nero," type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Scarica premio vettoriale di colorato galassia acquerello scarabocchio su sfondo nero vettore di Toon su astronauta, carattere illustrazione nero,.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light and salt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\light and salt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="debate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\debate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="按鈕1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\按鈕.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="貓貓星球" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\貓貓星球.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="宇宙貓1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\宇宙貓1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="easter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\easter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="astronomy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\astronomy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

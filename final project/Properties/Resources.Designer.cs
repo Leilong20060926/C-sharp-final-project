@@ -83,9 +83,29 @@ namespace final_project.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap astronomy {
+            get {
+                object obj = ResourceManager.GetObject("astronomy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap ChatGPT_Image_2026年5月5日_上午12_54_12 {
             get {
                 object obj = ResourceManager.GetObject("ChatGPT Image 2026年5月5日 上午12_54_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap debate {
+            get {
+                object obj = ResourceManager.GetObject("debate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +146,16 @@ namespace final_project.Properties {
         internal static System.Drawing.Bitmap easter {
             get {
                 object obj = ResourceManager.GetObject("easter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap light_and_salt {
+            get {
+                object obj = ResourceManager.GetObject("light and salt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
