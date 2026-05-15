@@ -68,6 +68,7 @@
             label3 = new Label();
             panel14 = new Panel();
             panel15 = new Panel();
+            linkLabel1 = new LinkLabel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -341,13 +342,17 @@
             // button1
             // 
             button1.BackColor = Color.AntiqueWhite;
+            button1.Cursor = Cursors.Hand;
             button1.ForeColor = Color.FromArgb(17, 51, 23);
-            button1.Location = new Point(407, 776);
+            button1.Location = new Point(413, 777);
             button1.Name = "button1";
-            button1.Size = new Size(143, 34);
+            button1.Size = new Size(140, 35);
             button1.TabIndex = 8;
             button1.Text = "Test Again";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            button1.MouseEnter += button1_MouseEnter;
+            button1.MouseLeave += button1_MouseLeave;
             // 
             // panel7
             // 
@@ -505,12 +510,29 @@
             panel15.TabIndex = 15;
             panel15.Paint += panel15_Paint;
             // 
+            // linkLabel1
+            // 
+            linkLabel1.ActiveLinkColor = Color.White;
+            linkLabel1.AutoSize = true;
+            linkLabel1.DisabledLinkColor = Color.FromArgb(17, 51, 23);
+            linkLabel1.Font = new Font("Gill Sans Ultra Bold", 7F);
+            linkLabel1.LinkColor = Color.FromArgb(17, 51, 23);
+            linkLabel1.Location = new Point(25, 783);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(354, 20);
+            linkLabel1.TabIndex = 16;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "More information on academic societies";
+            linkLabel1.MouseLeave += linkLabel1_MouseLeave;
+            linkLabel1.MouseHover += linkLabel1_MouseHover;
+            // 
             // result1
             // 
             AutoScaleDimensions = new SizeF(13F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(191, 215, 144);
             ClientSize = new Size(578, 844);
+            Controls.Add(linkLabel1);
             Controls.Add(panel11);
             Controls.Add(panel9);
             Controls.Add(panel8);
@@ -600,5 +622,6 @@
         private Panel panel14;
         private Panel panel15;
         private Label label21;
+        private LinkLabel linkLabel1;
     }
 }
