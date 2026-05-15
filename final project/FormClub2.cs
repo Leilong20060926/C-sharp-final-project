@@ -8,19 +8,16 @@ using System.Windows.Forms;
 
 namespace final_project
 {
-    public partial class FormClub1 : Form
+    public partial class FormClub2 : Form
     {
-        public FormClub1()
+        public FormClub2()
         {
             InitializeComponent();
         }
-    
-     private void button3_Click(object sender, EventArgs e)
-        {
-            FormClub122 f122 = new FormClub122();
-            f122.Show();
 
-            this.Hide();
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

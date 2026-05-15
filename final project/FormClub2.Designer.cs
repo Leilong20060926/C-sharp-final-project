@@ -1,6 +1,6 @@
 ﻿namespace final_project
 {
-    partial class FormClub1
+    partial class FormClub2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormClub1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormClub2));
             button2 = new Button();
             button3 = new Button();
             panel10 = new Panel();
@@ -97,7 +97,7 @@
             button2.Location = new Point(12, 610);
             button2.Name = "button2";
             button2.Size = new Size(81, 75);
-            button2.TabIndex = 83;
+            button2.TabIndex = 96;
             button2.Text = "PREV";
             button2.UseVisualStyleBackColor = false;
             // 
@@ -114,10 +114,9 @@
             button3.Location = new Point(383, 610);
             button3.Name = "button3";
             button3.Size = new Size(78, 75);
-            button3.TabIndex = 82;
+            button3.TabIndex = 95;
             button3.Text = "NEXT";
             button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
             // 
             // panel10
             // 
@@ -125,10 +124,10 @@
             panel10.Controls.Add(pictureBox10);
             panel10.Controls.Add(label11);
             panel10.ForeColor = Color.White;
-            panel10.Location = new Point(243, 512);
+            panel10.Location = new Point(243, 513);
             panel10.Name = "panel10";
             panel10.Size = new Size(205, 91);
-            panel10.TabIndex = 81;
+            panel10.TabIndex = 94;
             // 
             // pictureBox10
             // 
@@ -146,11 +145,11 @@
             label11.BackColor = Color.Transparent;
             label11.Font = new Font("Noto Serif KR", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label11.ForeColor = Color.Navy;
-            label11.Location = new Point(79, 25);
+            label11.Location = new Point(104, 25);
             label11.Name = "label11";
-            label11.Size = new Size(119, 42);
+            label11.Size = new Size(83, 42);
             label11.TabIndex = 1;
-            label11.Text = " Bliss & Wisdom\r\n   Youth  Club";
+            label11.Text = "  Baseball\r\n     Club";
             // 
             // panel9
             // 
@@ -158,10 +157,10 @@
             panel9.Controls.Add(pictureBox9);
             panel9.Controls.Add(label10);
             panel9.ForeColor = Color.White;
-            panel9.Location = new Point(20, 512);
+            panel9.Location = new Point(20, 513);
             panel9.Name = "panel9";
             panel9.Size = new Size(205, 91);
-            panel9.TabIndex = 80;
+            panel9.TabIndex = 93;
             // 
             // pictureBox9
             // 
@@ -181,9 +180,9 @@
             label10.ForeColor = Color.Navy;
             label10.Location = new Point(79, 25);
             label10.Name = "label10";
-            label10.Size = new Size(111, 42);
+            label10.Size = new Size(110, 42);
             label10.TabIndex = 1;
-            label10.Text = "  Bauhinia Go\r\n        Club";
+            label10.Text = "   Skateboard\r\n         Club";
             // 
             // panel8
             // 
@@ -191,10 +190,10 @@
             panel8.Controls.Add(pictureBox8);
             panel8.Controls.Add(label9);
             panel8.ForeColor = Color.White;
-            panel8.Location = new Point(243, 407);
+            panel8.Location = new Point(243, 408);
             panel8.Name = "panel8";
             panel8.Size = new Size(205, 91);
-            panel8.TabIndex = 79;
+            panel8.TabIndex = 92;
             // 
             // pictureBox8
             // 
@@ -202,7 +201,7 @@
             pictureBox8.Location = new Point(8, 15);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(65, 62);
-            pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 1;
             pictureBox8.TabStop = false;
             // 
@@ -212,11 +211,11 @@
             label9.BackColor = Color.Transparent;
             label9.Font = new Font("Noto Serif KR", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label9.ForeColor = Color.Navy;
-            label9.Location = new Point(79, 25);
+            label9.Location = new Point(87, 25);
             label9.Name = "label9";
-            label9.Size = new Size(88, 42);
+            label9.Size = new Size(78, 42);
             label9.TabIndex = 1;
-            label9.Text = "      Shi Xin\r\n        Club";
+            label9.Text = "        Yoga\r\n        Club";
             // 
             // panel7
             // 
@@ -227,7 +226,7 @@
             panel7.Location = new Point(20, 408);
             panel7.Name = "panel7";
             panel7.Size = new Size(205, 91);
-            panel7.TabIndex = 78;
+            panel7.TabIndex = 91;
             // 
             // pictureBox7
             // 
@@ -245,11 +244,11 @@
             label8.BackColor = Color.Transparent;
             label8.Font = new Font("Noto Serif KR", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label8.ForeColor = Color.Navy;
-            label8.Location = new Point(79, 25);
+            label8.Location = new Point(93, 25);
             label8.Name = "label8";
-            label8.Size = new Size(120, 42);
+            label8.Size = new Size(76, 42);
             label8.TabIndex = 1;
-            label8.Text = " Living Spring \r\n  of Life Club";
+            label8.Text = "    Tennis\r\n      Club";
             // 
             // panel6
             // 
@@ -260,7 +259,7 @@
             panel6.Location = new Point(243, 298);
             panel6.Name = "panel6";
             panel6.Size = new Size(205, 91);
-            panel6.TabIndex = 77;
+            panel6.TabIndex = 90;
             // 
             // pictureBox6
             // 
@@ -280,9 +279,9 @@
             label7.ForeColor = Color.Navy;
             label7.Location = new Point(87, 25);
             label7.Name = "label7";
-            label7.Size = new Size(104, 42);
+            label7.Size = new Size(110, 42);
             label7.TabIndex = 1;
-            label7.Text = "  Leadership\r\n        Club";
+            label7.Text = "  Freecombat\r\n        Club";
             // 
             // panel5
             // 
@@ -293,7 +292,8 @@
             panel5.Location = new Point(20, 298);
             panel5.Name = "panel5";
             panel5.Size = new Size(205, 91);
-            panel5.TabIndex = 76;
+            panel5.TabIndex = 89;
+            panel5.Paint += panel5_Paint;
             // 
             // pictureBox5
             // 
@@ -313,9 +313,9 @@
             label6.ForeColor = Color.Navy;
             label6.Location = new Point(79, 25);
             label6.Name = "label6";
-            label6.Size = new Size(103, 42);
+            label6.Size = new Size(90, 42);
             label6.TabIndex = 1;
-            label6.Text = "    Falundafa\r\n        Club";
+            label6.Text = "       Karate\r\n        Club";
             // 
             // panel4
             // 
@@ -326,7 +326,7 @@
             panel4.Location = new Point(243, 186);
             panel4.Name = "panel4";
             panel4.Size = new Size(205, 91);
-            panel4.TabIndex = 75;
+            panel4.TabIndex = 88;
             // 
             // pictureBox4
             // 
@@ -344,11 +344,11 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Noto Serif KR", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.Navy;
-            label5.Location = new Point(79, 25);
+            label5.Location = new Point(58, 25);
             label5.Name = "label5";
-            label5.Size = new Size(120, 42);
+            label5.Size = new Size(147, 42);
             label5.TabIndex = 1;
-            label5.Text = "  Calligraphy \r\nResearch Club";
+            label5.Text = "   Chinese Martial \r\n        Arts Club";
             // 
             // panel3
             // 
@@ -359,11 +359,11 @@
             panel3.Location = new Point(20, 186);
             panel3.Name = "panel3";
             panel3.Size = new Size(205, 91);
-            panel3.TabIndex = 74;
+            panel3.TabIndex = 87;
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = Properties.Resources.astronomy;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(8, 15);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(65, 62);
@@ -379,9 +379,9 @@
             label4.ForeColor = Color.Navy;
             label4.Location = new Point(79, 25);
             label4.Name = "label4";
-            label4.Size = new Size(105, 42);
+            label4.Size = new Size(103, 42);
             label4.TabIndex = 1;
-            label4.Text = "   Astronomy\r\n        Club";
+            label4.Text = "   Swimming\r\n        Club";
             // 
             // panel2
             // 
@@ -392,11 +392,11 @@
             panel2.Location = new Point(243, 73);
             panel2.Name = "panel2";
             panel2.Size = new Size(205, 91);
-            panel2.TabIndex = 73;
+            panel2.TabIndex = 86;
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = Properties.Resources.debate;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(8, 15);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(65, 62);
@@ -410,22 +410,22 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Noto Serif KR", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Navy;
-            label3.Location = new Point(79, 25);
+            label3.Location = new Point(71, 25);
             label3.Name = "label3";
-            label3.Size = new Size(89, 42);
+            label3.Size = new Size(124, 42);
             label3.TabIndex = 1;
-            label3.Text = "      Debate\r\n        Club";
+            label3.Text = "    Cap baseball\r\n           Club";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Headline R", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 129);
             label2.ForeColor = SystemColors.ButtonHighlight;
-            label2.Location = new Point(130, 24);
+            label2.Location = new Point(147, 24);
             label2.Name = "label2";
-            label2.Size = new Size(218, 24);
-            label2.TabIndex = 72;
-            label2.Text = "Academic Club";
+            label2.Size = new Size(179, 24);
+            label2.TabIndex = 85;
+            label2.Text = "Sports Club";
             // 
             // panel1
             // 
@@ -436,11 +436,11 @@
             panel1.Location = new Point(20, 73);
             panel1.Name = "panel1";
             panel1.Size = new Size(205, 91);
-            panel1.TabIndex = 71;
+            panel1.TabIndex = 84;
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.light_and_salt;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(8, 15);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(65, 62);
@@ -454,13 +454,13 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Noto Serif KR", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Navy;
-            label1.Location = new Point(79, 25);
+            label1.Location = new Point(68, 25);
             label1.Name = "label1";
-            label1.Size = new Size(116, 42);
+            label1.Size = new Size(137, 42);
             label1.TabIndex = 1;
-            label1.Text = "Light and Salt\r\n        Club";
+            label1.Text = " Mountaineering\r\n         Club";
             // 
-            // FormClub1
+            // FormClub2
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -479,8 +479,8 @@
             Controls.Add(panel2);
             Controls.Add(label2);
             Controls.Add(panel1);
-            Name = "FormClub1";
-            Text = "FormClub1";
+            Name = "FormClub2";
+            Text = "FormClub2";
             panel10.ResumeLayout(false);
             panel10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();

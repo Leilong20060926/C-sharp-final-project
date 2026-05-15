@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace final_project
 {
-    public partial class Form12 : Form
+    public partial class FormClub122 : Form
     {
-        public Form12()
+        public FormClub122()
         {
             InitializeComponent();
         }

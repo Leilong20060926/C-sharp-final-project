@@ -1,6 +1,6 @@
 ﻿namespace final_project
 {
-    partial class Form12
+    partial class FormClub122
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form12));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormClub122));
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             label1 = new Label();
@@ -459,7 +459,7 @@
             button2.Text = "PREV";
             button2.UseVisualStyleBackColor = false;
             // 
-            // Form12
+            // FormClub122
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -478,7 +478,7 @@
             Controls.Add(panel2);
             Controls.Add(label2);
             Controls.Add(panel1);
-            Name = "Form12";
+            Name = "FormClub122";
             Text = "FormClub1.2";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
