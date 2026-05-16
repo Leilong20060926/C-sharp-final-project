@@ -421,7 +421,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Headline R", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 129);
             label2.ForeColor = SystemColors.ButtonHighlight;
-            label2.Location = new Point(130, 24);
+            label2.Location = new Point(128, 25);
             label2.Name = "label2";
             label2.Size = new Size(218, 24);
             label2.TabIndex = 72;
