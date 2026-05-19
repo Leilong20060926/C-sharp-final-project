@@ -118,14 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblStory.Text" xml:space="preserve">
-    <value>喵星導航是一個以宇宙貓咪為主題的心理測驗系統，透過情境式題目分析使用者的行為與決策模式。系統結合潛在特質分析，推估使用者的興趣傾向，並推薦最適合的校內社團類型，協助使用者更有效規劃大學生活。
-
-你是一隻被選中的「宇宙貓咪探險員」，被指派執行一項重要任務——
-前往傳說中的「喵爾星（Meow-7）」收集能量核心，這顆核心將影響整個星系的平衡。
-你與其他貓咪組成探索小隊，登上太空船「星爪號」。
-這趟任務充滿未知，而你的每一個選擇，都將影響整個任務的進行方式。
-當任務結束時，我們將根據你的行動與決策，揭示你最適合的校園社團類型。
-準備好了嗎？任務即將開始。 
-</value>
+    <value>CatStar Navigator is a personality-based quiz system themed around space cats. It uses scenario-based questions to analyze users’ behaviors and decision-making patterns.
+By applying latent trait analysis, the system estimates users’ interests and recommends the most suitable campus club types, helping users better plan their university life.
+You are a chosen “space cat explorer,” assigned to an important mission —to travel to the legendary planet Meow-7 and retrieve its energy core, which maintains the balance of the galaxy.
+Together with other space cats, you board the spaceship StarPaw and begin your journey.
+Every choice you make will influence how the mission unfolds.
+At the end of the mission, we will reveal the campus club type that best matches your personality.
+Are you ready?
+The mission begins now.</value>
   </data>
 </root>

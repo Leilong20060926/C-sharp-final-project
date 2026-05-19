@@ -42,5 +42,10 @@ namespace final_project
 
             MessageBox.Show("歡迎你，" + name + "！任務開始！");
         }
+
+        private void lblName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
